@@ -12,9 +12,6 @@ class ConfYaml(object):
             except yaml.YAMLError:
                 raise
 
-    def get_spider_name(self):
-        return self.__data[0]
-
     def get_login_info(self):
         return self.__data["login_info"]
 

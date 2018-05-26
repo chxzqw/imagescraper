@@ -1,0 +1,6 @@
+.vscode/
+imagescraper/__pycache__
+imagescraper/spiders/__pycache__
+TODO.md
+etc/
+!etc/sample*.conf.yaml
