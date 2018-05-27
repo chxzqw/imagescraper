@@ -1,8 +1,8 @@
 .vscode/
 imagescraper/__pycache__
 imagescraper/spiders/__pycache__
-imagescraper/tests/__pycache__
-imagescraper/tests/spiders/__pycache__
+tests/__pycache__
+tests/spiders/__pycache__
 TODO.md
 etc/
 !etc/sample*.conf.yaml
