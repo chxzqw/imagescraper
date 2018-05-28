@@ -64,8 +64,8 @@ class ImageSpider(scrapy.Spider):
             logging.info(ImageSpider.LOGIN_FAILED_INFO)
 
     def fn_parse_images_urls(self, response):
-        selector = scrapy.Selector(response = response)
-        image_urls = selector.xpath(self.__search_section).re(self.__image_url_match_pattern)
+        origin_image_urls = re.findall(self.__image_url_match_pattern, response.text)
+        image_urls = list(set(origin_image_urls))
         for image_url in image_urls:
             yield response.follow(image_url, self.fn_retrieve_image)
 
