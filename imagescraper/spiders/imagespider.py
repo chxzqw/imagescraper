@@ -72,4 +72,4 @@ class ImageSpider(scrapy.Spider):
     def fn_retrieve_image(self, response):
         logging.info(ImageSpider.SAVING_INFO % response.url)
         img = ScrapedImage(response.body)
-        img.save(self.__save_dir, self.__filename_regex.sub(self.__file_rename_string, response.url))
+        img.save(self.__save_dir, self.__filename_regex.sub(self.__file_rename_string, response.url).format(datetime.now()))
