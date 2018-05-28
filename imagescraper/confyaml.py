@@ -18,9 +18,6 @@ class ConfYaml(object):
     def get_page_urls(self):
         return self.__data["page_urls"]
 
-    def get_search_section(self):
-        return self.__data["search_section"]
-
     def get_image_url_match_pattern(self):
         return self.__data["image_url_match_pattern"]
 

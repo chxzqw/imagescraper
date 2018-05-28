@@ -35,7 +35,6 @@ class ImageSpider(scrapy.Spider):
             conf_yaml = ConfYaml(site)
             self.__login_info = conf_yaml.get_login_info()
             self.__page_urls = conf_yaml.get_page_urls()
-            self.__search_section = conf_yaml.get_search_section()
             self.__image_url_match_pattern = conf_yaml.get_image_url_match_pattern()
             self.__save_dir = conf_yaml.get_save_dir().format(datetime.now())
             self.__create_folder_if_not_exists(self.__save_dir)
