@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)![project-version](https://img.shields.io/badge/version-0.1.0-red.svg)![Python-version](https://img.shields.io/badge/Python-3.6.5-blue.svg)![Scrapy-version](https://img.shields.io/badge/Scrapy-1.5.0-blue.svg)![Pillow-version](https://img.shields.io/badge/Pillow-5.1.0-blue.svg)![PyYAML-version](https://img.shields.io/badge/PyYAML-3.12-blue.svg)
 
 # Image Scraper
 
