@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)
+
 # Image Scraper
 
 These scripts aims to do image scraping job from websites especially those which needs logins. Currently the program is still in experimental stage and has only been tested on certain websites. There is no guarantee that it performs well on other ones and you may get banned by using these scripts. Run the program at your own risk.
