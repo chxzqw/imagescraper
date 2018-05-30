@@ -24,7 +24,7 @@ Reference: [Microsoft Visual C++ 14.0 is required (Unable to find vcvarsall.bat)
 ### Installing
 
 Finish installing dependent libraries, create the project folder in which run  
-`git clone `  
+`git clone https://github.com/chxzqw/imagescraper.git`  
 
 ## Usage
 
