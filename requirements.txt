@@ -1,0 +1,4 @@
+scrapy
+PyYAML
+Pillow
+pylint
