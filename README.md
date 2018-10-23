@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)![Project-status](https://img.shields.io/badge/Status-experimental-red.svg)![project-version](https://img.shields.io/badge/version-0.1.0-red.svg)![Python-version](https://img.shields.io/badge/Python-3.6.5-blue.svg)![Scrapy-version](https://img.shields.io/badge/Scrapy-1.5.0-blue.svg)![Pillow-version](https://img.shields.io/badge/Pillow-5.1.0-blue.svg)![PyYAML-version](https://img.shields.io/badge/PyYAML-3.12-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)![Project-status](https://img.shields.io/badge/Status-experimental-red.svg)![project-version](https://img.shields.io/badge/version-0.1.0-red.svg)![Python-version](https://img.shields.io/badge/Python-3.7.0-blue.svg)
 
 # Image Scraper
 
@@ -10,10 +10,10 @@ These scripts aims to do image scraping job from websites especially those which
 
 At this time the program is written and tested by following python branch and packages:
 
-Python 3.6.5  
-Scrapy 1.5.0  
-Pillow 5.1.0  
-PyYAML 3.12  
+Python 3.7.0  
+Scrapy 1.5.1  
+Pillow 5.3.0  
+PyYAML 3.13  
 
 For Linux please refer to relative documents for installation.
 
@@ -23,7 +23,7 @@ Reference: [Microsoft Visual C++ 14.0 is required (Unable to find vcvarsall.bat)
 
 ### Installing
 
-Finish installing dependent libraries, create the project folder in which run  
+After installing dependent libraries, create the project folder in which run  
 `git clone https://github.com/chxzqw/imagescraper.git`  
 
 ## Usage
