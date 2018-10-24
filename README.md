@@ -52,6 +52,7 @@ In the project folder just run:
 ## Remain issues
 
 * lack of a proper scraping sandbox website as good example.
+* Due to missing proper compiled package Twisted in standard python environment, this project uses Miniconda instead.
 
 ## Authors
 
