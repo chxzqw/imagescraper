@@ -17,7 +17,6 @@ install:
   # Replace dep1 dep2 ... with your dependencies
   - conda create -q -n imagespiderenv python=$TRAVIS_PYTHON_VERSION scrapy PyYAML Pillow
   - source activate imagespiderenv
-  - python setup.py install
 notifications:
   email:
     on_success: never
