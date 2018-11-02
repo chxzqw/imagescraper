@@ -1,4 +1,7 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)![Project-status](https://img.shields.io/badge/Status-experimental-red.svg)![project-version](https://img.shields.io/badge/version-0.1.0-red.svg)![Python-version](https://img.shields.io/badge/Python-3.7.0-blue.svg)
+[![build](https://travis-ci.com/chxzqw/imagescraper.svg?branch=master)](https://travis-ci.com/chxzqw/imagescraper#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/chxzqw/imagescraper/blob/master/LICENSE)
+![Project-status](https://img.shields.io/badge/Status-experimental-red.svg)
+![project-version](https://img.shields.io/badge/version-0.1.0-red.svg)
 
 # Image Scraper
 
@@ -10,7 +13,7 @@ These scripts aims to do image scraping job from websites especially those which
 
 At this time the program is written and tested by following python branch and packages:
 
-Python 3.7.0  
+Conda 4.5.11  
 Scrapy 1.5.1  
 Pillow 5.3.0  
 PyYAML 3.13  
