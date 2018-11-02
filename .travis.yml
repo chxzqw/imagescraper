@@ -14,11 +14,10 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  # Replace dep1 dep2 ... with your dependencies
   - conda create -q -n imagespiderenv python=$TRAVIS_PYTHON_VERSION scrapy PyYAML Pillow
   - source activate imagespiderenv
 notifications:
   email:
     on_success: never
-#script:
-  # Your test script goes here
+script:
+  - python -m unittest tests/test_suite_imagescraper.py
