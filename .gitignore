@@ -6,3 +6,4 @@ tests/spiders/__pycache__
 TODO.md
 etc/
 !etc/sample*.conf.yaml
+*.code-workspace
