@@ -7,3 +7,4 @@ TODO.md
 etc/
 !etc/sample*.conf.yaml
 *.code-workspace
+.env/

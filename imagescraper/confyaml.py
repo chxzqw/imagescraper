@@ -8,9 +8,9 @@ class ConfYaml(object):
     def __init__(self, confname):
         with open('./etc/{}.conf.yaml'.format(confname), 'r') as stream:
             try:
-                self.__data = yaml.load(stream)
-            except yaml.YAMLError:
-                raise
+                self.__data = yaml.load(stream, Loader=yaml.FullLoader)
+            except yaml.YAMLError as yaml_error:
+                print(yaml_error)
 
     def get_login_info(self):
         return self.__data["login_info"]
