@@ -1,0 +1,7 @@
+name: imagescraperenv
+dependencies:
+- python
+- pylint
+- scrapy
+- pyyaml
+- pillow
