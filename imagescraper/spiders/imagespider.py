@@ -42,7 +42,7 @@ class ImageSpider(scrapy.Spider):
             self.__file_rename_string = conf_yaml.get_file_rename_string()
 
     def start_requests(self):
-        # use the first url to try login staff
+        # use the first url to try login stuff
         yield scrapy.Request(url = self.__page_urls[0],
             callback = self.fn_start_login,
             dont_filter = True)
