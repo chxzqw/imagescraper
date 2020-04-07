@@ -4,7 +4,7 @@ imagescraper/spiders/__pycache__
 tests/__pycache__
 tests/spiders/__pycache__
 TODO.md
-etc/*.conf.yaml
-!etc/default.conf.yaml
+etc/imagescraper.*.conf.yaml
+!etc/imagescraper.default.conf.yaml
 *.code-workspace
 .env/

@@ -6,12 +6,12 @@ import yaml
 class ConfYaml(object):
 
     def __init__(self, confname):
-        with open('./etc/default.conf.yaml', 'r') as stream:
+        with open('./etc/imagescraper.default.conf.yaml', 'r') as stream:
             try:
                 self.__default_data = yaml.load(stream, Loader=yaml.FullLoader)
             except yaml.YAMLError as yaml_error:
                 print(yaml_error)
-        with open('./etc/{}.conf.yaml'.format(confname), 'r') as stream:
+        with open('./etc/imagescraper.{}.conf.yaml'.format(confname), 'r') as stream:
             try:
                 self.__data = yaml.load(stream, Loader=yaml.FullLoader)
             except yaml.YAMLError as yaml_error:
