@@ -1,0 +1,9 @@
+login_info:
+  pwuser: 'test'
+  pwpwd: 'test'
+page_urls:
+  - 'http://books.toscrape.com/'
+image_url_match_pattern: 'media/cache/../../.+\.jpg'
+save_dir: 'download/sample/{0:%Y}/'
+file_rename_pattern: 'media/cache/../../(.+)(.jpg)'
+file_rename_string: '\1\2'
